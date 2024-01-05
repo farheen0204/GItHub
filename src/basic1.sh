@@ -1,5 +1,7 @@
 #!/bin/bash
 
+"@@@@@@@@"
+gfkhgjh
 
 read X
 read Y
@@ -11,3 +13,4 @@ then
 elif [ $X -ne $Y ] && [ $Y -ne $Z]
 then
     
+# sgahs,kx.chSGJHSKBNZX V
