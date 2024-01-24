@@ -15,7 +15,7 @@ pipeline {
 
     stage('build') {
       steps {
-        sh 'docker build -f GItHub/Dockerfile .'
+        sh 'docker build -f /.jenkins/Dockerfile .'
       }
     }
 
