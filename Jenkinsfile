@@ -15,7 +15,7 @@ pipeline {
 
     stage('build') {
       steps {
-        sh 'docker build -f farheenyasin082024/file1 .'
+        sh 'docker build -f ./first-image .'
       }
     }
 
