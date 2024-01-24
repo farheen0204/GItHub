@@ -15,7 +15,7 @@ pipeline {
 
     stage('build') {
       steps {
-        sh 'docker build -f ./first-image .'
+        sh 'docker build -f src/first-image .'
       }
     }
 
