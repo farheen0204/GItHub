@@ -15,7 +15,7 @@ pipeline {
 
     stage('build') {
       steps {
-        sh 'docker build -f /Users/arpitkhare/.jenkins/workspace/Dockerfile .'
+        sh 'docker build -f farheenyasin082024/file1 .'
       }
     }
 
