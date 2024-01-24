@@ -15,7 +15,7 @@ pipeline {
 
     stage('build') {
       steps {
-        sh 'docker built -f GItHub/Dockerfile .'
+        sh 'docker built -t GItHub/Dockerfile .'
       }
     }
 
